@@ -1,15 +1,72 @@
-body{
+*{
+    margin: 0 ;
+    padding: 0;
     background-color: black;
-    display: flex;
-    justify-content:center;
-    flex-direction: column;
+    color: white;
 }
-h1{color: aliceblue;
-font-style: initial;
-font-size: xx-large;
-text-align: center;
+
+.retalho{
+    background-color: black;
+color: gray;
+display: flex;
+justify-content: space-around;
+padding: 24px 0;
+
 }
-img{
+
+.retalho-imagem{
     width: 60%;
 
 }
+.retalho-lista-item{
+    display: inline-block;
+    margin: 0 16px;
+font-size: 24px;
+
+}
+
+ .alurada-imagem{
+    width: 20%;
+
+ }
+ .alurada{
+    background-image:linear-gradient(rgb(0, 0, 0)) rgb(94, 94, 94);
+    background-color: black;
+    color: rgb(255, 255, 255);
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    padding: 24px 0;
+ }
+ .alurada-div{
+width: 90%;
+background-color: black;
+ }
+
+ .alurada-titulo{
+    padding: 24px 0;
+
+}
+.estudante-imagem{
+    width: 140px;
+}
+
+ .alurada-texto-um{
+    font-size: large;
+    text-decoration: dotted;
+ }
+ .alurada-texto-dois{
+    font-size: large;
+    text-decoration: dotted;
+    text-shadow: 10cap;
+ }
+
+ .estudante-icone{
+    width: 20px;
+
+ }
+
+ .estudante-icone-dois{
+    width: 20px;
+
+ }
